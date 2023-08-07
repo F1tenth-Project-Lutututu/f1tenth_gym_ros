@@ -37,7 +37,7 @@ RUN apt-get -y dist-upgrade
 RUN pip3 install transforms3d
 
 # f1tenth gym
-RUN git clone https://github.com/f1tenth/f1tenth_gym
+RUN git clone https://github.com/F1tenth-Project-Lutututu/f1tenth_gym
 RUN cd f1tenth_gym && \
     pip3 install -e .
 
